@@ -58,53 +58,134 @@ _**Jupiter needs to function as a moderator between relationships**_ instead of 
 _**Urging people to take action is paramount**_ but they are nervous with strangers. We need to come up with ways to help break the ice between people, ease them into conversation. We need a way of measuring the quality of the relationship, how do we programmatically determine how well things are going between two individuals? Worth some thought. That way we know when to apply the pressure on them to move a step foreword, eg pull movie tickets and have them accept or decline (something like that).
 
 # Checkpoints
-- [] User Interface
-  - [] Landing Page with Sign-up/Log-in Form
-    - [] Web
-      - [] Mobile
-      - [] Desktop
-    - [] Android & IOS
-  - [] PAI Form
-    - [] Web
-      - [] Mobile
-      - [] Desktop
-    - [] Android & IOS
-  - [] Main-Dashboard (with links to each of the pages)
-    - [] Web
-      - [] Mobile
-      - [] Desktop
-    - [] Android & IOS
-  - [] Profile-Settings Page
-    - [] Web
-      - [] Mobile
-      - [] Desktop
-    - [] Android & IOS
-  - [] View-Matches Page
-    - [] Web
-      - [] Mobile
-      - [] Desktop
-    - [] Android & IOS
-  - [] Search Page
-    - [] Web
-      - [] Mobile
-      - [] Desktop
-    - [] Android & IOS
-  - [] Frequency/Personality Page
-    - [] Web
-      - [] Mobile
-      - [] Desktop
-    - [] Android & IOS
+
+## CLIENT SIDE
+
+### USER INTERFACE
+  - [] **LOGIN_SIGNUP COMPONENT (LSC)
+    - [] MOBILE
+      - [] _DESIGNED
+      - [] _IMPLEMENTED
+    - [] DESKTOP
+      - [] _DESIGNED
+      - [] _IMPLEMENTED
+    - [] ANDROID / IOS
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+        
+  - [] **PAI_TEST COMPONENT (PTC)
+      - [] MOBILE
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+      - [] DESKTOP
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    - [] ANDROID / IOS
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+        
+  - [] **MAIN_DASHBOARD COMPONENT (MDC)
+      - [] MOBILE
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+      - [] DESKTOP
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    - [] ANDROID / IOS
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    
+  - [] **PROFILE_SETTINGS COMPONENT (PSC)
+      - [] MOBILE
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+      - [] DESKTOP
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    - [] ANDROID / IOS
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    
+  - [] **VIEW_MATCHES COMPONENT (VMC)
+      - [] MOBILE
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+      - [] DESKTOP
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    - [] ANDROID / IOS
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    
+  - [] **SEARCH_FEED COMPONENT (SFC)
+      - [] MOBILE
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+      - [] DESKTOP
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    - [] ANDROID / IOS
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    
+  - [] **PROFILE_VIEW COMPONENT(PVC)
+      - [] MOBILE
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+      - [] DESKTOP
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    - [] ANDROID / IOS
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+      
+  - [] **PERSONALITY_FREQUENCY COMPONENT (PFC)
+      - [] MOBILE
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+      - [] DESKTOP
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    - [] ANDROID / IOS
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    
+  - [] **SINGLE_USER_CHAT COMPONENT (PFC)
+      - [] MOBILE
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+      - [] DESKTOP
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+    - [] ANDROID / IOS
+        - [] _DESIGNED
+        - [] _IMPLEMENTED
+      
+### DATA INTEGRATION
+
+  - [] LSC Integrated
+    - [] 
   
-- [] Server-Side
-  - [] Web-Server
-  - [] Database
+  
+# SERVER SIDE
+
+  - [] **_Web-Server
+    - [] Controller
+      - [] 
+    - [] HTTPS Authentication
+    - [] 
+      
+  - [] **Database
     - [] Instance Running
     - [] Model Conception Created
     - [] Model Implemented
-  - [] Database-Server
-    - [] Connection with PostgreSQL Instance
-    - [] Connection with Web-Server
-    - [] REST API
+    
+  - [] **Database-Proxy-Server
+    - [] Connected to Database Instance
+    - [] Connected to Web-Server
+    - [] Connected to App-Server
+    - [] Implemented In-Memory Database
+    - [] Complete REST API
       - [] POST User/Key=Value&Key=Value...
       - [] PATCH User/ID/Key=NewValue&OtherKey=NewValue... (Profile settings)
       - [] GET User/ID/Key&Key&Key...
@@ -115,5 +196,5 @@ _**Urging people to take action is paramount**_ but they are nervous with strang
       - [] POST Relationships/UserID&OtherUserID (New match)
       - [] GET AnalyticData/RelationshipID/Key&Key&Key (Get behavioral data from a relationship)
       - [] POST AnalyticData/RelationshipID/Key=NewValue&OtherKey=NewValue... (Log behavioral data on a relationship)
-    - [] In-Memory Database
+    
   
