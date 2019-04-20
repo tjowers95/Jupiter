@@ -53,3 +53,67 @@ Pace will be represented by the wavelength, Seriousness will be represented by t
 
 
 ## Moderation
+_**Jupiter needs to function as a moderator between relationships**_ instead of functioning as a broker. The application needs to be more involved in how any two individuals interact. Starting with a chat-client to enable sending messages, the first thing would be to reimagine how we send text-messages. Messages that are recieved will not show a sneakpeak, similar to Snapchat, you click the users avatar to view the message. Instead of opening a chat box, it will open an area which contains a message, rather than having discrete "message-units", and from there we will provide the user with options that ask how the message made them feel, how they think that other person is thinking, anything that gets them to critically-think about the exchange in an objective manner, eg "Do you believe she's being dismissive?" (which we could somewhat predict by tracking changes in message frequency and wordcount / eloquence -- people speak with more power when in an emotional conflict in most cases) so we can provide objective guidance with listing common reasons for these kinds of behaviors, depending on our research efforts in the relevant academia.
+
+_**Urging people to take action is paramount**_ but they are nervous with strangers. We need to come up with ways to help break the ice between people, ease them into conversation. We need a way of measuring the quality of the relationship, how do we programmatically determine how well things are going between two individuals? Worth some thought. That way we know when to apply the pressure on them to move a step foreword, eg pull movie tickets and have them accept or decline (something like that).
+
+# Checkpoints
+- [] User Interface
+  - [] Landing Page with Sign-up/Log-in Form
+    - [] Web
+      - [] Mobile
+      - [] Desktop
+    - [] Android & IOS
+  - [] PAI Form
+    - [] Web
+      - [] Mobile
+      - [] Desktop
+    - [] Android & IOS
+  - [] Main-Dashboard (with links to each of the pages)
+    - [] Web
+      - [] Mobile
+      - [] Desktop
+    - [] Android & IOS
+  - [] Profile-Settings Page
+    - [] Web
+      - [] Mobile
+      - [] Desktop
+    - [] Android & IOS
+  - [] View-Matches Page
+    - [] Web
+      - [] Mobile
+      - [] Desktop
+    - [] Android & IOS
+  - [] Search Page
+    - [] Web
+      - [] Mobile
+      - [] Desktop
+    - [] Android & IOS
+  - [] Frequency/Personality Page
+    - [] Web
+      - [] Mobile
+      - [] Desktop
+    - [] Android & IOS
+  
+- [] Server-Side
+  - [] Web-Server
+  - [] Database
+    - [] Instance Running
+    - [] Model Conception Created
+    - [] Model Implemented
+  - [] Database-Server
+    - [] Connection with PostgreSQL Instance
+    - [] Connection with Web-Server
+    - [] REST API
+      - [] POST User/Key=Value&Key=Value...
+      - [] PATCH User/ID/Key=NewValue&OtherKey=NewValue... (Profile settings)
+      - [] GET User/ID/Key&Key&Key...
+      - [] GET Users/Radius/X (eg, get the first 50 users within 10 miles Users/10/50)
+      - [] GET AnalyticData/UserID/Key&Key&Key... (Data regarding a user's behavior in the app, generally)
+      - [] POST AnalyticData/UserID/Key=NewValue&OtherKey=NewValue...
+      - [] GET Relationships/UserID[&OtherUserID] (All of a user's matches, or a specific match)
+      - [] POST Relationships/UserID&OtherUserID (New match)
+      - [] GET AnalyticData/RelationshipID/Key&Key&Key (Get behavioral data from a relationship)
+      - [] POST AnalyticData/RelationshipID/Key=NewValue&OtherKey=NewValue... (Log behavioral data on a relationship)
+    - [] In-Memory Database
+  
