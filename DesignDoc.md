@@ -62,104 +62,104 @@ _**Urging people to take action is paramount**_ but they are nervous with strang
 ## CLIENT SIDE
 
 ### USER INTERFACE
-  - [] **LOGIN_SIGNUP COMPONENT (LSC)
+  - [] **LOGIN_SIGNUP COMPONENT (LSC)**
     - [] MOBILE
-      - [] _DESIGNED
-      - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     - [] DESKTOP
-      - [] _DESIGNED
-      - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     - [] ANDROID / IOS
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
         
-  - [] **PAI_TEST COMPONENT (PTC)
-      - [] MOBILE
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
-      - [] DESKTOP
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+  - [] **PAI_TEST COMPONENT (PTC)**
+    - [] MOBILE
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
+    - [] DESKTOP
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     - [] ANDROID / IOS
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
         
-  - [] **MAIN_DASHBOARD COMPONENT (MDC)
-      - [] MOBILE
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
-      - [] DESKTOP
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+  - [] **MAIN_DASHBOARD COMPONENT (MDC)**
+    - [] MOBILE
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
+    - [] DESKTOP
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     - [] ANDROID / IOS
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     
-  - [] **PROFILE_SETTINGS COMPONENT (PSC)
-      - [] MOBILE
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
-      - [] DESKTOP
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+  - [] **PROFILE_SETTINGS COMPONENT (PSC)**
+    - [] MOBILE
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
+    - [] DESKTOP
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     - [] ANDROID / IOS
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     
-  - [] **VIEW_MATCHES COMPONENT (VMC)
-      - [] MOBILE
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
-      - [] DESKTOP
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+  - [] **VIEW_MATCHES COMPONENT (VMC)**
+    - [] MOBILE
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
+    - [] DESKTOP
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     - [] ANDROID / IOS
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     
-  - [] **SEARCH_FEED COMPONENT (SFC)
-      - [] MOBILE
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
-      - [] DESKTOP
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+  - [] **SEARCH_FEED COMPONENT (SFC)**
+    - [] MOBILE
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
+    - [] DESKTOP
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     - [] ANDROID / IOS
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     
-  - [] **PROFILE_VIEW COMPONENT(PVC)
-      - [] MOBILE
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
-      - [] DESKTOP
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+  - [] **PROFILE_VIEW COMPONENT(PVC)**
+    - [] MOBILE
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
+    - [] DESKTOP
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     - [] ANDROID / IOS
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
       
-  - [] **PERSONALITY_FREQUENCY COMPONENT (PFC)
-      - [] MOBILE
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
-      - [] DESKTOP
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+  - [] **PERSONALITY_FREQUENCY COMPONENT (PFC)**
+    - [] MOBILE
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
+    - [] DESKTOP
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     - [] ANDROID / IOS
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     
-  - [] **SINGLE_USER_CHAT COMPONENT (PFC)
-      - [] MOBILE
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
-      - [] DESKTOP
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+  - [] **SINGLE_USER_CHAT COMPONENT (PFC)**
+    - [] MOBILE
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
+    - [] DESKTOP
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
     - [] ANDROID / IOS
-        - [] _DESIGNED
-        - [] _IMPLEMENTED
+      - [] _DESIGNED_
+      - [] _IMPLEMENTED_
       
 ### DATA INTEGRATION
 
