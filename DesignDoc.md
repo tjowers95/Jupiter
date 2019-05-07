@@ -163,17 +163,18 @@ _**Urging people to take action is paramount**_ but they are nervous with strang
       
 ### DATA INTEGRATION
 
-  - [] LSC Integrated
-    - [] 
+**_TBA_**
   
   
 # SERVER SIDE
-
-  - [] **_Web-Server
+  - [] **_Reverse Proxy Balancer (RPB)_**
+    - [] TLS 1.3 Authentication
+    - [] Cache
+    
+  - [] **_Web-Server API_ (WSA)**
+    - [] User-Datagram Protocol (UDP) w/ RPB
+    - [] Routes
     - [] Controller
-      - [] 
-    - [] HTTPS Authentication
-    - [] 
       
   - [] **Database
     - [] Instance Running
@@ -183,18 +184,10 @@ _**Urging people to take action is paramount**_ but they are nervous with strang
   - [] **Database-Proxy-Server
     - [] Connected to Database Instance
     - [] Connected to Web-Server
-    - [] Connected to App-Server
-    - [] Implemented In-Memory Database
+    - [] In-Memory Database
+      - [] Modeled
+      - [] Implemented
     - [] Complete REST API
-      - [] POST User/Key=Value&Key=Value...
-      - [] PATCH User/ID/Key=NewValue&OtherKey=NewValue... (Profile settings)
-      - [] GET User/ID/Key&Key&Key...
-      - [] GET Users/Radius/X (eg, get the first 50 users within 10 miles Users/10/50)
-      - [] GET AnalyticData/UserID/Key&Key&Key... (Data regarding a user's behavior in the app, generally)
-      - [] POST AnalyticData/UserID/Key=NewValue&OtherKey=NewValue...
-      - [] GET Relationships/UserID[&OtherUserID] (All of a user's matches, or a specific match)
-      - [] POST Relationships/UserID&OtherUserID (New match)
-      - [] GET AnalyticData/RelationshipID/Key&Key&Key (Get behavioral data from a relationship)
-      - [] POST AnalyticData/RelationshipID/Key=NewValue&OtherKey=NewValue... (Log behavioral data on a relationship)
-    
+      - [] Modeled
+      - [] Implemented
   
