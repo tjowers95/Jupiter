@@ -1,17 +1,23 @@
 #ifndef _TLSv13_H
 #define _TLSv13_H
-struct raw_request_st
+#include <stdint.h>
+typedef struct tls_handshake_st
 {
-    uint so_fd, bytes;
-    uint8_t data[];
-};
-struct tls_record_st
-{
-    uint meta;
-    uint8_t header[5], data[0];
-};
+    uint32_t fd, len;
+    uint8_t record, handshake, random[32], *ciphers, *extensions;
+    uint8_t supported_groups;
+    uint8_t public_key[32], private_key[32];
+    uint8_t data[2048];
 
-int tcp_listen_on(char *port);
+} TLS_HaNDSHaKe;
 
-struct raw_request_st incoming(int so_fd);
+int TCP_LiSTeN_oN(char *p);
+
+TLS_HaNDSHaKe* iNCoMiNG(int s);
+
+void PaRSe_HaNDSHaKe(TLS_HaNDSHaKe* t);
+
+void SeT_GRouP(TLS_HaNDSHaKe* t);
+
+void PRiNT_ReQueST(unsigned char *r, TLS_HaNDSHaKe* t);
 #endif

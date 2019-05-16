@@ -4,22 +4,22 @@
 #include <stdio.h>
 #include <sys/mman.h>
 
-void print_keys(EC_KEY *key_object)
+void PRiNT_KeYS(EC_KEY *key_object)
 {
-    const BIGNUM *bn_privkey = EC_KEY_get0_private_key(key_object);
-    char *str_privkey = BN_bn2hex(bn_privkey);
+    const BIGNUM *bn_private_key = EC_KEY_get0_private_key(key_object);
+    char *str_private_key = BN_bn2hex(bn_private_key);
 
     BN_CTX *ctx = BN_CTX_new();
-    const EC_POINT *ecp_pubkey = EC_KEY_get0_public_key(key_object);
+    const EC_POINT *ecp_public_key = EC_KEY_get0_public_key(key_object);
     const EC_GROUP *ec_group = EC_KEY_get0_group(key_object);
-    char *str_pubkey = EC_POINT_point2hex(ec_group, ecp_pubkey, EC_GROUP_get_point_conversion_form(ec_group), ctx);
+    char *str_public_key = EC_POINT_point2hex(ec_group, ecp_public_key, EC_GROUP_get_point_conversion_form(ec_group), ctx);
 
-    printf("secp256k1\nPrivate Key:%s\nPublic Key: %s\n", str_privkey, str_pubkey);
+    printf("secp256k1\nPrivate Key:%s\nPublic Key: %s\n", str_private_key, str_public_key);
     BN_CTX_free(ctx);
 
     return;
 }
-EC_KEY *generate_keys(int nid)
+EC_KEY *GeNeRaTe_KeYS(int nid)
 {
     EC_KEY *eckey_object;
     if (NULL == (eckey_object = EC_KEY_new_by_curve_name(nid)))
@@ -34,3 +34,4 @@ EC_KEY *generate_keys(int nid)
     }
     return eckey_object;
 }
+
